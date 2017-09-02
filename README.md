@@ -48,3 +48,9 @@ BYTE DISPLAY_MESSAGE[] =
 void (*fnNoty)(DWORD);
 fnNoty = ( void (__cdecl*)(DWORD) )&ENCODING_DISPLAY_MESSAGE;
 ~~~
+
+### 4. 적용하기
+
+![/data/pe_injection.gif](/data/pe_injection.gif)
+
+[원본블로그](http://blog.naver.com/adsloader/50119841873)
