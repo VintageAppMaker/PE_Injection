@@ -1,0 +1,294 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: PEBrowser - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x412 /fo"Release/PEBrowser.res" /d "NDEBUG" /d "_AFXDLL" "D:\2011-09-01목 PE와암호화\PEBrowser\PEBrowser.rc"" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP187.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Release/PEBrowser.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\2011-09-01목 PE와암호화\PEBrowser\PEBrowser.cpp"
+"D:\2011-09-01목 PE와암호화\PEBrowser\PEBrowserDlg.cpp"
+"D:\2011-09-01목 PE와암호화\common\PEHeader.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP187.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP188.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Release/PEBrowser.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\2011-09-01목 PE와암호화\PEBrowser\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP188.tmp" 
+Creating command line "link.exe /nologo /subsystem:windows /incremental:no /pdb:"Release/PEBrowser.pdb" /machine:I386 /out:"Release/PEBrowser.exe"  ".\Release\PEBrowser.obj" ".\Release\PEBrowserDlg.obj" ".\Release\PEHeader.obj" ".\Release\StdAfx.obj" ".\Release\PEBrowser.res" "
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+PEBrowser.cpp
+PEBrowserDlg.cpp
+PEHeader.cpp
+D:\2011-09-01목 PE와암호화\common\PEHeader.cpp(65) : warning C4244: 'argument' : conversion from '__int64' to 'long', possible loss of data
+D:\2011-09-01목 PE와암호화\common\PEHeader.cpp(113) : warning C4244: 'argument' : conversion from '__int64' to 'long', possible loss of data
+D:\2011-09-01목 PE와암호화\common\PEHeader.cpp(128) : warning C4244: 'argument' : conversion from '__int64' to 'long', possible loss of data
+D:\2011-09-01목 PE와암호화\common\PEHeader.cpp(144) : warning C4244: 'argument' : conversion from '__int64' to 'long', possible loss of data
+D:\2011-09-01목 PE와암호화\common\PEHeader.cpp(205) : warning C4018: '<' : signed/unsigned mismatch
+Generating Code...
+D:\2011-09-01목 PE와암호화\common\PEHeader.cpp(177) : warning C4715: 'AddSection' : not all control paths return a value
+Linking...
+
+
+
+<h3>Results</h3>
+PEBrowser.exe - 0 error(s), 6 warning(s)
+<h3>
+--------------------Configuration: PEBrowser - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x412 /fo"Debug/PEBrowser.res" /d "_DEBUG" /d "_AFXDLL" "D:\2011-09-01목 PE와암호화\PEBrowser\PEBrowser.rc"" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP18A.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/PEBrowser.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\2011-09-01목 PE와암호화\PEBrowser\PEBrowser.cpp"
+"D:\2011-09-01목 PE와암호화\PEBrowser\PEBrowserDlg.cpp"
+"D:\2011-09-01목 PE와암호화\common\PEHeader.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP18A.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP18B.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/PEBrowser.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\2011-09-01목 PE와암호화\PEBrowser\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP18B.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP18C.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/PEBrowser.pdb" /debug /machine:I386 /out:"..\output\\PEBrowser.exe" /pdbtype:sept 
+".\Debug\PEBrowser.obj"
+".\Debug\PEBrowserDlg.obj"
+".\Debug\PEHeader.obj"
+".\Debug\StdAfx.obj"
+".\Debug\PEBrowser.res"
+]
+Creating command line "link.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP18C.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+PEBrowser.cpp
+PEBrowserDlg.cpp
+PEHeader.cpp
+D:\2011-09-01목 PE와암호화\common\PEHeader.cpp(65) : warning C4244: 'argument' : conversion from '__int64' to 'long', possible loss of data
+D:\2011-09-01목 PE와암호화\common\PEHeader.cpp(113) : warning C4244: 'argument' : conversion from '__int64' to 'long', possible loss of data
+D:\2011-09-01목 PE와암호화\common\PEHeader.cpp(128) : warning C4244: 'argument' : conversion from '__int64' to 'long', possible loss of data
+D:\2011-09-01목 PE와암호화\common\PEHeader.cpp(144) : warning C4244: 'argument' : conversion from '__int64' to 'long', possible loss of data
+D:\2011-09-01목 PE와암호화\common\PEHeader.cpp(205) : warning C4018: '<' : signed/unsigned mismatch
+Generating Code...
+D:\2011-09-01목 PE와암호화\common\PEHeader.cpp(177) : warning C4715: 'AddSection' : not all control paths return a value
+Linking...
+
+
+
+<h3>Results</h3>
+PEBrowser.exe - 0 error(s), 6 warning(s)
+<h3>
+--------------------Configuration: PEDll - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x412 /fo"Release/PEDll.res" /d "NDEBUG" /d "_AFXDLL" "D:\2011-09-01목 PE와암호화\PEDll\PEDll.rc"" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP18E.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_WINDLL" /D "_AFXDLL" /D "_MBCS" /D "_USRDLL" /Fp"Release/PEDll.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\2011-09-01목 PE와암호화\PEDll\PEDll.cpp"
+"D:\2011-09-01목 PE와암호화\common\PEHeader.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP18E.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP18F.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_WINDLL" /D "_AFXDLL" /D "_MBCS" /D "_USRDLL" /Fp"Release/PEDll.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\2011-09-01목 PE와암호화\PEDll\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP18F.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP190.tmp" with contents
+[
+/nologo /subsystem:windows /dll /incremental:no /pdb:"Release/PEDll.pdb" /machine:I386 /def:".\PEDll.def" /out:"Release/PEDll.dll" /implib:"Release/PEDll.lib" 
+".\Release\PEDll.obj"
+".\Release\PEHeader.obj"
+".\Release\StdAfx.obj"
+".\Release\PEDll.res"
+]
+Creating command line "link.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP190.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+PEDll.cpp
+D:\2011-09-01목 PE와암호화\PEDll\PEDll.cpp(291) : warning C4102: 'ENDFAKE' : unreferenced label
+D:\2011-09-01목 PE와암호화\PEDll\PEDll.cpp(282) : warning C4102: 'REALCODE' : unreferenced label
+D:\2011-09-01목 PE와암호화\PEDll\PEDll.cpp(258) : warning C4102: 'STARTFAKE' : unreferenced label
+PEHeader.cpp
+D:\2011-09-01목 PE와암호화\common\PEHeader.cpp(65) : warning C4244: 'argument' : conversion from '__int64' to 'long', possible loss of data
+D:\2011-09-01목 PE와암호화\common\PEHeader.cpp(113) : warning C4244: 'argument' : conversion from '__int64' to 'long', possible loss of data
+D:\2011-09-01목 PE와암호화\common\PEHeader.cpp(128) : warning C4244: 'argument' : conversion from '__int64' to 'long', possible loss of data
+D:\2011-09-01목 PE와암호화\common\PEHeader.cpp(144) : warning C4244: 'argument' : conversion from '__int64' to 'long', possible loss of data
+D:\2011-09-01목 PE와암호화\common\PEHeader.cpp(205) : warning C4018: '<' : signed/unsigned mismatch
+Generating Code...
+D:\2011-09-01목 PE와암호화\common\PEHeader.cpp(177) : warning C4715: 'AddSection' : not all control paths return a value
+Linking...
+   Creating library Release/PEDll.lib and object Release/PEDll.exp
+
+
+
+<h3>Results</h3>
+PEDll.dll - 0 error(s), 9 warning(s)
+<h3>
+--------------------Configuration: PEDll - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x412 /fo"Debug/PEDll.res" /d "_DEBUG" "D:\2011-09-01목 PE와암호화\PEDll\PEDll.rc"" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP194.tmp" with contents
+[
+/nologo /MTd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "_WINDLL" /FR"Debug/" /Fp"Debug/PEDll.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\2011-09-01목 PE와암호화\PEDll\PEDll.cpp"
+"D:\2011-09-01목 PE와암호화\common\PEHeader.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP194.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP195.tmp" with contents
+[
+/nologo /MTd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "_WINDLL" /FR"Debug/" /Fp"Debug/PEDll.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\2011-09-01목 PE와암호화\PEDll\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP195.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP196.tmp" with contents
+[
+/nologo /subsystem:windows /dll /incremental:yes /pdb:"Debug/PEDll.pdb" /debug /machine:I386 /def:".\PEDll.def" /out:"../output/PEDll.dll" /implib:"Debug/PEDll.lib" /pdbtype:sept 
+".\Debug\PEDll.obj"
+".\Debug\PEHeader.obj"
+".\Debug\StdAfx.obj"
+".\Debug\PEDll.res"
+]
+Creating command line "link.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP196.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+PEDll.cpp
+D:\2011-09-01목 PE와암호화\PEDll\PEDll.cpp(291) : warning C4102: 'ENDFAKE' : unreferenced label
+D:\2011-09-01목 PE와암호화\PEDll\PEDll.cpp(282) : warning C4102: 'REALCODE' : unreferenced label
+D:\2011-09-01목 PE와암호화\PEDll\PEDll.cpp(258) : warning C4102: 'STARTFAKE' : unreferenced label
+PEHeader.cpp
+D:\2011-09-01목 PE와암호화\common\PEHeader.cpp(65) : warning C4244: 'argument' : conversion from '__int64' to 'long', possible loss of data
+D:\2011-09-01목 PE와암호화\common\PEHeader.cpp(113) : warning C4244: 'argument' : conversion from '__int64' to 'long', possible loss of data
+D:\2011-09-01목 PE와암호화\common\PEHeader.cpp(128) : warning C4244: 'argument' : conversion from '__int64' to 'long', possible loss of data
+D:\2011-09-01목 PE와암호화\common\PEHeader.cpp(144) : warning C4244: 'argument' : conversion from '__int64' to 'long', possible loss of data
+D:\2011-09-01목 PE와암호화\common\PEHeader.cpp(205) : warning C4018: '<' : signed/unsigned mismatch
+Generating Code...
+D:\2011-09-01목 PE와암호화\common\PEHeader.cpp(177) : warning C4715: 'AddSection' : not all control paths return a value
+Linking...
+   Creating library Debug/PEDll.lib and object Debug/PEDll.exp
+
+
+
+<h3>Results</h3>
+PEDll.dll - 0 error(s), 9 warning(s)
+<h3>
+--------------------Configuration: TestEXE - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x412 /fo"Release/TestEXE.res" /d "NDEBUG" /d "_AFXDLL" "D:\2011-09-01목 PE와암호화\TestEXE\TestEXE.rc"" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP19A.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Release/TestEXE.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\2011-09-01목 PE와암호화\TestEXE\MainFrm.cpp"
+"D:\2011-09-01목 PE와암호화\TestEXE\TestEXE.cpp"
+"D:\2011-09-01목 PE와암호화\TestEXE\TestEXEDoc.cpp"
+"D:\2011-09-01목 PE와암호화\TestEXE\TestEXEView.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP19A.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP19B.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Release/TestEXE.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\2011-09-01목 PE와암호화\TestEXE\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP19B.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP19C.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:no /pdb:"Release/TestEXE.pdb" /machine:I386 /out:"Release/TestEXE.exe" 
+".\Release\MainFrm.obj"
+".\Release\StdAfx.obj"
+".\Release\TestEXE.obj"
+".\Release\TestEXEDoc.obj"
+".\Release\TestEXEView.obj"
+".\Release\TestEXE.res"
+]
+Creating command line "link.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP19C.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+MainFrm.cpp
+TestEXE.cpp
+TestEXEDoc.cpp
+TestEXEView.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+TestEXE.exe - 0 error(s), 0 warning(s)
+<h3>
+--------------------Configuration: TestEXE - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x412 /fo"Debug/TestEXE.res" /d "_DEBUG" /d "_AFXDLL" "D:\2011-09-01목 PE와암호화\TestEXE\TestEXE.rc"" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP19E.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /FR"Debug/" /Fp"Debug/TestEXE.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\2011-09-01목 PE와암호화\TestEXE\MainFrm.cpp"
+"D:\2011-09-01목 PE와암호화\TestEXE\TestEXE.cpp"
+"D:\2011-09-01목 PE와암호화\TestEXE\TestEXEDoc.cpp"
+"D:\2011-09-01목 PE와암호화\TestEXE\TestEXEView.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP19E.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP19F.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /FR"Debug/" /Fp"Debug/TestEXE.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\2011-09-01목 PE와암호화\TestEXE\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP19F.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP1A0.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/TestEXE.pdb" /debug /machine:I386 /out:"../output/TestEXE.exe" /pdbtype:sept 
+".\Debug\MainFrm.obj"
+".\Debug\StdAfx.obj"
+".\Debug\TestEXE.obj"
+".\Debug\TestEXEDoc.obj"
+".\Debug\TestEXEView.obj"
+".\Debug\TestEXE.res"
+]
+Creating command line "link.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP1A0.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+MainFrm.cpp
+TestEXE.cpp
+TestEXEDoc.cpp
+TestEXEView.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+TestEXE.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
